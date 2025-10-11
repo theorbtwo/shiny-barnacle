@@ -1,0 +1,1 @@
+This is for projects that aim to take a real-world object and create an image of it.  That describes cameras, flat-bed scanners, telescopes, x-ray machines, and the like, which is an awful wide category.  Thus, most of the conent will likely be in subdirectores.
