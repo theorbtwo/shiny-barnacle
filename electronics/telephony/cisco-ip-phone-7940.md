@@ -38,3 +38,161 @@ This represents a config setting, and is represented by a zero-based id outside 
 These start at `0x000cc5d0`.  Note that this is inside a `fancy_str` -- the static copies are at `000cc5d0`, the runtime copies are at `0047be00`.
 
 `parse` is a pointer to a function `int config_parse_X(struct_1_shifted *param_1,char *param_2)`.  It should parse `char *` and stick it in the data member, returning 1 on error and 0 otherwise.
+
+
+chip inventory
+---
+
+U1
+```
+431AC
+<ti logo> 59M
+C4FG4
+```
+
+U2
+```
+TDT74FCT
+35Y3AQG
+Z054BFJK
+```
+
+U3
+5 pin, center top is missing.
+```
+N08B
+```
+
+U8
+```
+(tilty L, logo?)L0646
+817D
+(big dot)Y
+```
+
+U9
+```
+<empty m logo> MIC
+5209YM
+06YV
+```
+
+U10 / U11 (identical)
+```
+<cypress logo> CY7C7C1041DV33
+               -10ZSXI
+               0643 669795
+          PHI  N 04
+```
+
+U12
+```
+giant cisco systems logo
+F731532AFGE
+08-0338-03
+680 C 63AJ3LW
+```
+
+U13
+```
+(big I on the left)
+CS512
+PCJT4
+```
+
+U14
+(sticker)
+```
+17-8142-01
+0649 HK
+```
+(chip)
+```
+<spansion logo>
+S29AL008D70TF102
+0645MVM H
+<copyright> 04 SPANSION
+```
+
+U15
+```
+MBG
+```
+
+U17
+```
+big broadcom logo
+BCM5912A2KQMG
+TD0646  P12
+801575 5
+```
+
+
+U20
+(metal can, presumably crystal osc)
+```
+VCC1-B3B
+50M000
+9636 K
+```
+
+U21
+```
+<analog devices logo> ZS311
+LARSZ
+#0646
+045235
+```
+
+U22
+```
+MAX3232
+CSE 0648
+```
+
+U23
+```
+1DT74FCT
+3244AQG
+Z0548FWK
+```
+
+U24 / U25 (identical)
+```
+<ti logo> 6ACNTXM
+LV4053  (underlined)G4
+```
+
+U26 / U27 (identical)
+```
+M8RB
+G94
+```
+
+U28
+```
+MV324I
+<ti logo> 65K(underlined)G4
+AKNN
+```
+
+T1
+```
+TDK
+15EFD-U07
+X   0610
+```
+
+T2
+```
+<logo>Pulse
+H2039NL
+0651-Z CHINA
+```
+
+Speaker
+```
+571008A
+8ohm
+651
+```
