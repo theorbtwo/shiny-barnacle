@@ -49,6 +49,9 @@ U1
 <ti logo> 59M
 C4FG4
 ```
+TL431ACD Precision Programmable Reference.  A, 1% initial accuracy.  C, 0-70 degC.
+https://www.ti.com/lit/ds/symlink/tl431.pdf
+
 
 U2
 ```
@@ -57,11 +60,14 @@ TDT74FCT
 Z054BFJK
 ```
 
+
 U3
 5 pin, center top is missing.
 ```
 N08B
 ```
+TI LMV431IM5/NOPB 1.5%, low-voltage (1.24-V) adjustable precision shunt regulator
+https://www.ti.com/product/LMV431/part-details/LMV431IM5/NOPB
 
 U8
 ```
@@ -70,12 +76,16 @@ U8
 (big dot)Y
 ```
 
+
 U9
 ```
 <empty m logo> MIC
 5209YM
 06YV
 ```
+500mA Low-Noise LDO Regulator
+https://www.alldatasheet.com/datasheet-pdf/download/451888/MICREL/MIC5209YM.html
+
 
 U10 / U11 (identical)
 ```
@@ -84,6 +94,7 @@ U10 / U11 (identical)
                0643 669795
           PHI  N 04
 ```
+1 MByte (total across both chips) static RAM
 
 U12
 ```
@@ -93,12 +104,15 @@ F731532AFGE
 680 C 63AJ3LW
 ```
 
+
 U13
 ```
 (big I on the left)
 CS512
 PCJT4
 ```
+https://www.alldatasheet.com/datasheet-pdf/download/65416/ICST/ICS512.html
+
 
 U14
 (sticker)
@@ -109,10 +123,20 @@ U14
 (chip)
 ```
 <spansion logo>
-S29AL008D70TF102
+S29AL008D70TFI02
 0645MVM H
 <copyright> 04 SPANSION
 ```
+S29AL008D
+8 Megabit (1 M x 8-Bit/512 K x 16-Bit)
+CMOS 3.0 Volt-only Boot Sector Flash Memory
+70: 70 ns access speed.
+T: TSOP, standard pinout.
+F: lead-free.
+I: industrual temp range -40 to 85 degC.
+02: x8/x16, VCC = 2.7 - 3.6V, bottom boot sector device.
+
+
 
 U15
 ```
@@ -135,6 +159,13 @@ VCC1-B3B
 50M000
 9636 K
 ```
+https://ww1.microchip.com/downloads/en/DeviceDoc/VCC1-April-2020.pdf
+1996 week 16
+B: +3.3Vdc, 15pF
+3: tri-state 45/55% duty cycle
+B: +-50ppm over -10/70degC
+50M000: 50MHz
+
 
 U21
 ```
@@ -143,6 +174,7 @@ LARSZ
 #0646
 045235
 ```
+
 
 U22
 ```
